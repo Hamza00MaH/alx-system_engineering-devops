@@ -12,4 +12,4 @@ cd -   = changes the working directory to the previous one.
 ls . .. /boot -la = lists all files in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 file /tmp/iamafile= prints the type of the file named
 ln -s /bin/ls __ls__ = Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
-cp -u *.html . ..    = copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+cp -un *.html ..    = copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.

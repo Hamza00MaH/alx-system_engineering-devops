@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name "*-a"
+find . -type d -not -name "." | wc -l
